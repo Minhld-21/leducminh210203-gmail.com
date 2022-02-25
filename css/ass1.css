@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+}
+.logo{
+    float: left;
+    width: 10%;
+    text-align: left;
+    padding-top: 3px;
+}
+.logo img{
+    width: 50px;
+    padding-left: 30px;
+}
+header .danhmuc{
+    float: right;
+    width: 90%;
+}
+.trangchu{
+    float: left;
+    width: 62%;
+    margin: 15px;
+    font-size: 13pt;
+}
+.trangchu img{
+    width: 30px;
+    float: left;
+}
+.trangchu p{
+    display: inline;
+    padding: 0  20px;
+}
+.trangchu a{
+    text-decoration: none;
+    color: black;
+}
+.search{
+    padding-top: 15px;
+}
+hr{
+    width: 100%;
+}
+.banner{
+    background-image: url(../img/dm1.png);
+    background-size: 100%;
+    height: 440px;
+    margin: 15px 0 30px 0;
+}
+article h3{
+    text-align: center;
+    color: #22156b;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px 0;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.new_list{
+    width: 80%;
+}
+.sp{
+    background-color: whitesmoke;
+    width: 30%;
+    float: left;
+    padding: 1%;
+    border : 1px solid #ccc;
+    margin-right: 1%;
+    position: relative;
+    box-shadow: 0 0 1px grey;
+    border-radius: 10px;
+    height: 400px;
+    overflow: hidden;
+}
+.sp img{
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    transition-duration: 0.4s;
+    -webkit-trasition-duration: 0.4s; 
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+}
+.sp img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    cursor: pointer;
+    filter: opacity(50%);
+}
+.sp h2{
+    margin-top: 10px;
+    text-align: center;
+}
+.sp a{
+    text-decoration: none;
+}
+.sp a:hover{
+    text-decoration: rgb(245, 70, 70) ;
+    box-shadow:  0px 10px 5px #5C6E91;
+    transition: all 1s;
+}
+.gia{
+    text-align: center;
+    color: rgb(2, 2, 2);
+}
+footer{
+    background-color: #5C6E91;
+    margin-top: 100px;
+    height: 220px;
+    font-size: 18px;
+    color: white;
+}
+.phan1{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+    padding-top: 30px;
+}
+footer h3{
+    color: black;
+}
+.thongtin a{
+    text-decoration: none;
+    color: white;
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: #F05454;
+}
+.phan2{
+    text-align: left;
+    width: 50%;
+    padding: 10px 0;
+    padding-top: 30px;
+}
+.phan2 img{
+    width: 5%;
+    padding: 5px 10px;
+}
+body{
+    background-color: #E6E6E6;
+}
+
+
